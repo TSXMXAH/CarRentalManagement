@@ -1,4 +1,5 @@
 ﻿using CarRentalManagement.Configuration.Entities;
+using CarRentalManagement.Configurations.Entities;
 using CarRentalManagement.Data;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,9 @@ namespace CarRentalManagement.Data
             builder.ApplyConfiguration(new ColourSeed());
             builder.ApplyConfiguration(new MakeSeed());
             builder.ApplyConfiguration(new ModelSeed());
+            builder.ApplyConfiguration(new RoleSeed());
+            builder.ApplyConfiguration(new UserRoleSeed());
+            builder.ApplyConfiguration(new UserSeed());
         }
     }
 }
