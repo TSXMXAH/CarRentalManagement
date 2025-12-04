@@ -1,5 +1,5 @@
 ﻿using CarRentalManagement.Data;
-using CarRentalManagementPE03.Data.Identity;
+using CarRentalManagement.Data;
 using Microsoft.AspNetCore.Identity;
 
 namespace CarRentalManagement.Components.Account

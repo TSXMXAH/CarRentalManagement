@@ -3,7 +3,7 @@ using System.Text.Json;
 using CarRentalManagement.Components.Account.Pages;
 using CarRentalManagement.Components.Account.Pages.Manage;
 using CarRentalManagement.Data;
-using CarRentalManagementPE03.Data.Identity;
+using CarRentalManagement.Data;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Http.Extensions;
